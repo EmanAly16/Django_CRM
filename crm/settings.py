@@ -89,9 +89,9 @@ STEPS FOR DJANGO POSTGRESQL DATABASE + AWS RDS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database name',
-        'USER':'database user',
-        'PASSWORD':'database password',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD':'',
         'HOST':'database endpoint',
         'PORT':'database port'
     }
